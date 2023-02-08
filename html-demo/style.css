@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(241,241,241);
+    text-align: center;
+}
+
+h1, h2{
+    color: firebrick;
+    font-family: 'Playfair Display', serif;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+#btn-green{
+    background: rgb(24, 176, 80);
+    transition: background 1s ease-in-out;
+}
+
+#btn-green:hover{
+    background: rgb(13, 111, 49);
+}
+ul{
+    padding: 0;
+}
+li{
+    list-style: none;
+    display: inline;
+}
+
+div{
+    width: 600px;
+    margin: 30px auto;
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0 10px 30px rgb(0,0,0, 0.2);
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.social{
+    background-color: rgb(233, 150, 122);
+}
+
+.social:hover{
+    background-color: rgb(167, 98, 75);
+}
