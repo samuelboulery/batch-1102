@@ -1,0 +1,83 @@
+.card {
+  width: 30%;
+
+  position: relative;
+  background-color: white;
+  border-radius: 24px;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 60px 0;
+}
+
+.card__background{
+  position: absolute;
+  background: linear-gradient(180deg, #48FFA7 0%, rgba(0, 139, 72, 1) 100%);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  border-radius: 24px 24px 24px 24px;
+  z-index: 1;
+
+  transition: border-radius .3s linear;
+}
+.card__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+
+  color: #FFFFFF;
+
+  z-index: 2;
+}
+
+.card__price {
+  display: flex;
+}
+
+.card__price h3 {
+  align-self: flex-end;
+}
+
+.card__plan {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 60%;
+}
+
+.card__plan__trait {
+  height: 5px;
+  background-color: #FFFFFF;
+  width: 100%;
+}
+
+.card__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.card__buy{
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  color: #000000;
+  z-index: 0;
+}
+
+.card:hover .card__background{
+  border-radius: 24px 24px 60% 24px;
+}
+
+.card:nth-child(even){
+  transform: scale(1.2);
+  z-index: 7;
+}
+
+.card:nth-child(even) .card__background {
+  background: linear-gradient(180deg, #FF9900 0%, #833F00 100%);
+}
