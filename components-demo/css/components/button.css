@@ -1,0 +1,15 @@
+.button {
+  background-color: yellow;
+  padding: 8px 12px;
+  border-radius: 4px;
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  transition: background .3s linear;
+}
+
+.button:hover {
+  background-color: red;
+  color: white;
+}

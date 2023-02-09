@@ -1,0 +1,12 @@
+.card-categorie {
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  border-radius: 8px;
+}
+
+.card-categorie h2 {
+  color: white;
+}

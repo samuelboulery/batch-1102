@@ -3,7 +3,13 @@
 
 /* --- Components design --- */
 @import url("components/container.css");
-/* TODO: import new components */
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card-categorie.css");
+@import url("components/card-product.css");
+@import url("components/card-trip.css");
+
 
 /* --- Fonts & colors --- */
 body {
@@ -18,4 +24,8 @@ h1, h2, h3 {
 
 .text-center {
   text-align: center;
+}
+
+a {
+  text-decoration: none;
 }
